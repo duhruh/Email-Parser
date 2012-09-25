@@ -1,0 +1,197 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: david.r.rivera193@gmail.com
+Received: by 10.220.190.199 with SMTP id dj7cs73368vcb;
+        Tue, 27 Sep 2011 11:22:00 -0700 (PDT)
+Received: by 10.52.26.178 with SMTP id m18mr8476361vdg.222.1317147719360;
+        Tue, 27 Sep 2011 11:21:59 -0700 (PDT)
+Return-Path: <nina@cloudspace.com>
+Received: from mail-vx0-f179.google.com (mail-vx0-f179.google.com [209.85.220.179])
+        by mx.google.com with ESMTPS id ep8si2592814vcb.174.2011.09.27.11.21.59
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 27 Sep 2011 11:21:59 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning nina@cloudspace.com does not designate 209.85.220.179 as permitted sender) client-ip=209.85.220.179;
+Authentication-Results: mx.google.com; spf=softfail (google.com: domain of transitioning nina@cloudspace.com does not designate 209.85.220.179 as permitted sender) smtp.mail=nina@cloudspace.com
+Received: by mail-vx0-f179.google.com with SMTP id f1so3988040vcb.10
+        for <david.r.rivera193@gmail.com>; Tue, 27 Sep 2011 11:21:59 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.220.86.129 with SMTP id s1mr1943584vcl.263.1317147718905; Tue,
+ 27 Sep 2011 11:21:58 -0700 (PDT)
+Received: by 10.220.177.71 with HTTP; Tue, 27 Sep 2011 11:21:58 -0700 (PDT)
+In-Reply-To: <CACj75DmV8pNLKyR+dCF6wgS4OGM6YRxuY+CV+Mn=cfOq-AjmBg@mail.gmail.com>
+References: <CACj75DkoOzJxW0wwvOGfExZOy-jCAK7bzOhkd1At4VPvwjm+7w@mail.gmail.com>
+	<CAL-NqX91mCoRHWmHeB-wGd5vrpx4ZrqbmuWV1=HrO+ab3A=pJA@mail.gmail.com>
+	<CACj75DmFiPvn9gz612cMjpb=kN=aAiOWrEbvFgkpO5HCg+x_3w@mail.gmail.com>
+	<CACj75D=-awumECuHUorwDN0oVnMpmvzL__u+ddhbnVGJC67SLw@mail.gmail.com>
+	<CAL-NqX8CvTzMtRVMe0P+Eweh1enhiz=d0a=jQ6sswhy=isu+-A@mail.gmail.com>
+	<CACj75Dn=YWg=TrM4fE3hk9ehiMABW4edgoDuC4SutG+WdShuVg@mail.gmail.com>
+	<CAL-NqX_QwLJKgBrFcO-PTgagXCyXF=MgQLuOoQZCe6NX-oVPjg@mail.gmail.com>
+	<CACj75D=877QBbamxw6O+84TKKY20wc+S6VgbSUxLK11VBkicVw@mail.gmail.com>
+	<CACj75DmV8pNLKyR+dCF6wgS4OGM6YRxuY+CV+Mn=cfOq-AjmBg@mail.gmail.com>
+Date: Tue, 27 Sep 2011 14:21:58 -0400
+Message-ID: <CAL-NqX_7UL6_XF-uWuhwGeBzRSVN2wTpdU_2YqWgfC0BwUnyUw@mail.gmail.com>
+Subject: Re: David Rivera Applicant for Ruby on Rails Software Engineer
+From: Nina Talley <nina@cloudspace.com>
+To: David Rivera <david.r.rivera193@gmail.com>
+Content-Type: multipart/alternative; boundary=0016e64e9bf4e6f0a804adf0590f
+
+--0016e64e9bf4e6f0a804adf0590f
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi David,
+
+     Thanks so much for coming in today! If possible, would you mind
+completing the included and returning it? Our Practicals are the best way
+for us to judge your skill level. Thanks again and please let me know if you
+have any questions!
+
+
+*PHP Coding Practical: Parsing an Email*
+
+What do I mean by parse and email?  Go to Gmail, open an incoming email, and
+do "View Original" from the drop down menu in the upper right corner of the
+email.
+
+You should see a text file of a raw email.  The goal is to parse that and
+extract relevant fields.
+
+This is actually a very difficult thing and proper implementation could take
+months.  However, it's possible to do the basics, without handling all of
+the intricacies, in as little as 2 but no more than 8 hours of coding time
+(research not included in this time estimate).
+
+Your Goals:
+
+   1. Take in an email and parse it into relevant fields.  Figure out what
+   those relevant fields are.
+   2. Create a good foundation.  Try to write extensible/maintainable code.
+   3. When you're done, list out next steps you'd take in your
+   implementation.  Eg, I'd focus on handling different MIME types in the body,
+   etc.
+   4. Don't use a library that does the parsing for you (we know we're
+   making you reinvent the wheel here), but feel free to use any
+   non-email-specific libraries you want.
+   5. Send us the code along with a brief explanation of how it works.
+   Don't forget the requirements from #3!
+
+A few notes about your goals:
+
+   - The directions are purposefully vague. Make decisions on what you think
+   is best for the goal you're trying to accomplish.  Feel free to tell us why
+   you made certain decisions in your summary.
+   - Use the RFC Email Specs as a starting point to help you parse the
+   email.
+   - Google is your friend!
+
+
+On Fri, Sep 23, 2011 at 10:44 AM, David Rivera
+<david.r.rivera193@gmail.com>wrote:
+
+> Yes that's perfect I will see you then. Is it the same address as on the
+> cloudspace website?
+> On Sep 23, 2011 10:23 AM, "Nina Talley" <nina@cloudspace.com> wrote:
+>
+
+
+
+-- 
+[image: Cloudspace.com] <http://www.cloudspace.com/>Nina TalleyAccount
+ManagerOffice: 877.823.8808
+
+3403 Technological Ave, Suite 2
+
+Orlando, FL 32817
+
+--0016e64e9bf4e6f0a804adf0590f
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi David,<div><br></div><div>=A0 =A0 =A0Thanks so much for coming in today!=
+ If possible, would you mind completing the included and returning it? Our =
+Practicals are the best way for us to judge your skill level. Thanks again =
+and please let me know if you have any questions!</div>
+<div><br></div><div><br></div><div><span class=3D"Apple-style-span" style=
+=3D"font-family: arial, sans-serif; font-size: 13px; "><b style=3D"backgrou=
+nd-color: rgb(255, 255, 255);"><span style=3D"color: rgb(34, 34, 34); "><sp=
+an style=3D"color: rgb(34, 34, 34); "><span class=3D"il" style=3D"backgroun=
+d-image: initial; background-attachment: initial; background-origin: initia=
+l; background-clip: initial; color: rgb(34, 34, 34); ">PHP</span></span></s=
+pan>=A0Coding=A0<span style=3D"color: rgb(34, 34, 34); "><span style=3D"col=
+or: rgb(34, 34, 34); "><span class=3D"il" style=3D"background-image: initia=
+l; background-attachment: initial; background-origin: initial; background-c=
+lip: initial; color: rgb(34, 34, 34); ">Practical</span></span></span>: Par=
+sing an Email</b><br>
+<br><span class=3D"Apple-style-span" style=3D"background-color: rgb(255, 25=
+5, 255);">What do I mean by parse and email?=A0 Go to Gmail, open an incomi=
+ng email, and do &quot;View Original&quot; from the drop down menu in the u=
+pper right corner of the email.</span><br>
+<br><span class=3D"Apple-style-span" style=3D"background-color: rgb(255, 25=
+5, 255);">You should see a text file of a raw email.=A0 The goal is to pars=
+e that and extract relevant fields.</span><br><br><span class=3D"Apple-styl=
+e-span" style=3D"background-color: rgb(255, 255, 255);">This is actually a =
+very difficult thing and proper implementation could take months.=A0 Howeve=
+r, it&#39;s possible to do the basics, without handling all of the intricac=
+ies, in as little as 2 but no more than 8 hours of coding time (research no=
+t included in this time estimate).</span><br>
+<br><span class=3D"Apple-style-span" style=3D"background-color: rgb(255, 25=
+5, 255);">Your Goals:</span><br><ol style=3D"background-color: rgb(255, 255=
+, 255); "><li style=3D"margin-left: 15px; ">Take in an email and parse it i=
+nto relevant fields.=A0 Figure out what those relevant fields are.</li>
+<li style=3D"margin-left: 15px; ">Create a good foundation.=A0 Try to write=
+ extensible/maintainable code.</li><li style=3D"margin-left: 15px; ">When y=
+ou&#39;re done, list out next steps you&#39;d take in your implementation.=
+=A0 Eg, I&#39;d focus on handling different MIME types in the body, etc.</l=
+i>
+<li style=3D"margin-left: 15px; ">Don&#39;t use a library that does the par=
+sing for you (we know we&#39;re making you reinvent the wheel here), but fe=
+el free to use any non-email-specific libraries you want.</li><li style=3D"=
+margin-left: 15px; ">
+Send us the code along with a brief explanation of how it works.=A0 Don&#39=
+;t forget the requirements from #3!</li></ol><span class=3D"Apple-style-spa=
+n" style=3D"background-color: rgb(255, 255, 255);">A few notes about your g=
+oals:</span><br>
+<ul style=3D"background-color: rgb(255, 255, 255); "><li style=3D"margin-le=
+ft: 15px; ">The directions are purposefully vague. Make decisions on what y=
+ou think is best for the goal you&#39;re trying to accomplish.=A0 Feel free=
+ to tell us why you made certain decisions in your summary.</li>
+<li style=3D"margin-left: 15px; ">Use the RFC Email Specs as a starting poi=
+nt to help you parse the email.</li><li style=3D"margin-left: 15px; ">Googl=
+e is your friend!</li></ul></span><br><div class=3D"gmail_quote">On Fri, Se=
+p 23, 2011 at 10:44 AM, David Rivera <span dir=3D"ltr">&lt;<a href=3D"mailt=
+o:david.r.rivera193@gmail.com">david.r.rivera193@gmail.com</a>&gt;</span> w=
+rote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex;"><p>Yes that&#39;s perfect I will see you th=
+en. Is it the same address as on the cloudspace website?</p>
+<div class=3D"gmail_quote">On Sep 23, 2011 10:23 AM, &quot;Nina Talley&quot=
+; &lt;<a href=3D"mailto:nina@cloudspace.com" target=3D"_blank">nina@cloudsp=
+ace.com</a>&gt; wrote:<br type=3D"attribution"></div>
+</blockquote></div><br><br clear=3D"all"><div><br></div>-- <br><span style=
+=3D"font-family:arial, sans-serif;font-size:13px;border-collapse:collapse">=
+<table style=3D"font-family:georgia, sans-serif;color:rgb(0, 118, 163);font=
+-size:16px">
+<tbody><tr><td width=3D"351" style=3D"margin-top:0px;margin-right:0px;margi=
+n-bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:left"><a h=
+ref=3D"http://www.cloudspace.com/" style=3D"color:rgb(237, 28, 36)" target=
+=3D"_blank"><img alt=3D"Cloudspace.com" src=3D"http://www.cloudspace.com/lo=
+go/cloudspace-originalcolor.png" height=3D"49" width=3D"296" style=3D"borde=
+r-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-=
+width:0px"></a></td>
+</tr><tr><td width=3D"351" style=3D"margin-top:0px;margin-right:0px;margin-=
+bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:left">Nina T=
+alley</td></tr><tr><td width=3D"351" style=3D"margin-top:0px;margin-right:0=
+px;margin-bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:le=
+ft">
+Account Manager</td></tr><tr><td style=3D"margin-top:0px;margin-right:0px;m=
+argin-bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:left">=
+Office: 877.823.8808</td></tr><tr><td style=3D"margin-top:0px;margin-right:=
+0px;margin-bottom:0px;margin-left:0px;font-family:arial, sans-serif;float:l=
+eft">
+<p style=3D"padding-top:0px;padding-right:0px;padding-bottom:0px;padding-le=
+ft:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">3=
+403 Technological Ave, Suite 2</p><p style=3D"padding-top:0px;padding-right=
+:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;ma=
+rgin-bottom:0px;margin-left:0px">
+Orlando, FL 32817</p></td></tr></tbody></table></span><br>
+</div>
+
+--0016e64e9bf4e6f0a804adf0590f--

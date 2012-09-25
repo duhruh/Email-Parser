@@ -1,0 +1,316 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Docs For Class Email</title>
+	<link rel="stylesheet" type="text/css" id="layout" href="../media/layout.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../media/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../media/print.css" media="print">
+</head>
+
+<body>
+<div id="header">
+	<div id="navLinks">
+        
+                                    
+                            	        [ <a href="../classtrees_default.html">Class Tree: default</a> ]
+            [ <a href="../elementindex_default.html">Index: default</a> ]
+        		[ <a href="../elementindex.html">All elements</a> ]		
+	</div>
+	<div id="packagePosition">
+		<div id="packageTitle2">default</div>
+		<div id="packageTitle">default</div>
+		<div id="elementPath"> &middot; </div>
+	</div>
+</div>
+
+<div id="nav" class="small">
+	<div id="packages">
+		Packages:
+					<p><a href="../li_default.html">default</a></p>
+			</div>
+
+				<div id="index">
+			<div id="files">
+								Files:<br>
+								<a href="../default/_parse.php.html">		parse.php
+		</a><br>
+				</div>
+			<div id="interfaces">
+							</div>
+			<div id="classes">
+				Classes:<br>
+								<a href="../default/Email.html">		Email
+		</a><br>
+				</div>
+		</div>
+	</div>
+
+<div id="body">
+	    		<h1>Class: Email</h1>
+	<p style="margin: 0px;">Source Location: /parse.php</p>
+	
+
+<div class="leftcol">
+	<h3><a href="#class_details">Class Overview</a> <span class="smalllinenumber">[line 36]</span></h3>
+	<div id="classTree"><pre></pre>
+</div>
+	<div class="small">
+	<p>Holds all functions nessary to parse a raw email.</p>
+		<h4>Author(s):</h4>
+	<ul>
+								<li>David Rivera</li>
+																</ul>
+	<h4>Version:</h4>
+	<ul>
+													<li>PHP5</li>
+											</ul>
+
+	<h4>Copyright:</h4>
+	<ul>
+																		<li>Copyright (c) 2011, David Rivera</li>
+						</li>
+	</div>
+</div>
+
+<div class="middlecol">
+	<h3><a href="#class_vars">Variables</a></h3>
+	<ul class="small">
+			</ul>
+	<h3><a href="#class_consts">Constants</a></h3>
+	<ul class="small">
+			</ul>
+</div>
+<div class="rightcol">
+	<h3><a href="#class_methods">Methods</a></h3>
+	<ul class="small">
+				<li><a href="../default/Email.html#method__construct">__construct</a></li>
+				<li><a href="../default/Email.html#methodextract_boundary">extract_boundary</a></li>
+				<li><a href="../default/Email.html#methodparse_body">parse_body</a></li>
+				<li><a href="../default/Email.html#methodparse_header">parse_header</a></li>
+				<li><a href="../default/Email.html#methodparse_headers">parse_headers</a></li>
+				<li><a href="../default/Email.html#methodsingle_line_headers">single_line_headers</a></li>
+				<li><a href="../default/Email.html#methodstrip_body">strip_body</a></li>
+			</ul>
+</div>
+
+<div id="content">
+<hr>
+	<div class="contents">
+	</div>
+
+	<div class="leftCol">
+    	<h2>Inherited Variables</h2>
+		<h2>Inherited Constants</h2>
+		</div>
+
+	<div class="rightCol">
+	<h2>Inherited Methods</h2>
+		</div>
+	<br clear="all">
+	<hr>
+
+	<a name="class_details"></a>
+	<h2>Class Details</h2>
+	<p align="center"><strong>Holds all functions nessary to parse a raw email.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>author</b> - David Rivera</li>
+	<li><b>version</b> - PHP5</li>
+	<li><b>copyright</b> - Copyright (c) 2011, David Rivera</li>
+</ul>
+	<p class="small" style="color: #334B66;">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_vars"></a>
+	<h2>Class Variables</h2>
+	
+	<hr>
+	<a name="class_methods"></a>
+	<h2>Class Methods</h2>
+	
+	<a name="method__construct"></a>
+	<p></p>
+	<h3>__construct</h3>
+	<div class="indent">
+		<p>
+		<code>Email __construct(
+
+$email)</code>
+		</p>
+	
+		<p class="linenumber">[line 41]</p>
+		<p align="center"><strong>Initalize the email object by getting its file contents.
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$email</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodextract_boundary"></a>
+	<p></p>
+	<h3>extract_boundary</h3>
+	<div class="indent">
+		<p>
+		<code>array extract_boundary(
+
+$bound_line)</code>
+		</p>
+	
+		<p class="linenumber">[line 105]</p>
+		<p align="center"><strong>Extracts the boundary string and returns it as the second value in the array.
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$bound_line</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodparse_body"></a>
+	<p></p>
+	<h3>parse_body</h3>
+	<div class="indent">
+		<p>
+		<code>array parse_body(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 112]</p>
+		<p align="center"><strong>Parses the body of the email.
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodparse_header"></a>
+	<p></p>
+	<h3>parse_header</h3>
+	<div class="indent">
+		<p>
+		<code>array parse_header(
+
+$header_line)</code>
+		</p>
+	
+		<p class="linenumber">[line 70]</p>
+		<p align="center"><strong>Takes in a single header line and breaks it apart into its header and its information.
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$header_line</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodparse_headers"></a>
+	<p></p>
+	<h3>parse_headers</h3>
+	<div class="indent">
+		<p>
+		<code>array parse_headers(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 79]</p>
+		<p align="center"><strong>This function when called breaks the raw email into its header and body.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - (the parsed headers)</li>
+	<li><b>global</b> - Boundary_String 1: </li>
+	<li><b>global</b> - Known_Headers $Known_Headers$Boundary_String: </li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodsingle_line_headers"></a>
+	<p></p>
+	<h3>single_line_headers</h3>
+	<div class="indent">
+		<p>
+		<code>array single_line_headers(
+
+$header_text)</code>
+		</p>
+	
+		<p class="linenumber">[line 48]</p>
+		<p align="center"><strong>Takes in the header text and breaks it into single lines, if one of the lines begins with a space it signifies it is part of the last header and appends it.
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$header_text</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodstrip_body"></a>
+	<p></p>
+	<h3>strip_body</h3>
+	<div class="indent">
+		<p>
+		<code>array strip_body(
+
+$body)</code>
+		</p>
+	
+		<p class="linenumber">[line 122]</p>
+		<p align="center"><strong>strips info not relevant to the body of the email e.g.(--, boundary string)
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>global</b> - Boundary_String $Boundary_String: </li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$body</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_consts"></a>
+	<h2>Class Constants</h2>
+	</div>
+	<div id="credit">
+		<hr>
+		Documentation generated on Tue, 04 Oct 2011 20:16:07 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a>
+	</div>
+</div>
+</body>
+</html>
